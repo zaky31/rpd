@@ -1,0 +1,9 @@
+ro = variabel ro c("4130.ABG","4130.AFA","4130.CAB","4130.CAN")
+komponen = variabel ro c("051","052","053")
+kegiatan = kegiatan dari komponen
+mak = kode mak
+detail = detail dari kegiatan
+vol1 = jumlah pengali (berapa kali kegiatan)
+vol2 = kodefikasi (OR, OK, dll)
+modal = RM atau PNP
+bulan = 1,2,...,10,11,12
