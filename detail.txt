@@ -1,34 +1,34 @@
 ro = c("4130.ABG","4130.AFA","4130.CAB","4130.CAN")
-komponen = c(4130.ABG.001.051, 4130.ABG.001.052, 4130.ABG.001.053, 4130.AFA.001.051, 4130.AFA.001.052, 4130.AFA.001.053, 4130.CAB.001.053, 4130.CAN.001.051)
-kegiatan = c(051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan
-,052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan
-,053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu
-,051.A - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Keamanan Pangan
-,051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu
-,051.C - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Mutu Pangan Olahan
-,051.D - Evaluasi Kualitas Kebijakan / Standar Pangan Olahan
-,051.E - Evaluasi Pelayanan Publik Direktorat Standardisasi Pangan Olahan
-,051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan
-,051.G - Automatic Adjusment (Pemblokiran)
-,052.A - Partisipasi Aktif pada Sidang Codex dan Pertemuan Internasional
-,052.B - Persiapan Posisi Indonesia pada Pertemuan Internasional
-,052.C - Advokasi dan Sosialisasi Standar Pangan
-,053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan
-,053.B - Evaluasi dan Perencanaan Direktorat Standardisasi Pangan Olahan
-,053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan
-,053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan
-,053.E - Monitoring dan Evaluasi Pelaksanaan Anggaran Direktorat Standardisasi Pangan Olahan
-,053.F - Forum Koordinasi Teknis Deputi Bidang Pengawasan Pangan Olahan pada Direktorat Standardisasi Pangan Olahan
-,053.G - Perkuatan Jejaring Lintas Sektor dalam Rangka Standardisasi Pangan Olahan
-,053.A - Pengadaan Peralatan Fasilitas Perkantoran pada Direktorat Pengawasan Produksi Pangan Olahan
-,053.B - Pengadaan Peralatan Fasilitas Perkantoran pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan
-,053.C - Pengadaan Peralatan Fasilitas Perkantoran pada Direktorat Standardisasi Pangan Olahan
-,051.A - Pengadaan Perangkat Pengolah Data pada Direktorat Standardisasi Pangan Olahan
-,051.B - Pengadaan Perangkat Pengolah Data pada Direktorat Pengawasan Produksi Pangan Olahan
-,051.C - Pengadaan Perangkat Pengolah Data dalam rangka Pelayanan Publik Direktorat Registrasi Pangan Olahan
-,051.D - Pengadaan Perangkat Pengolah Data pada Direktorat Pengawasan Peredaran Pangan Olahan
-,051.E - Pengadaan Perangkat Pengolah Data pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan)
-mak = c(521111 - Belanja Keperluan Perkantoran,521115 - Belanja Honor Operasional Satuan Kerja,521131 - Belanja Barang Operasional - Penanganan Pandemi COVID-19,521211 - Belanja Bahan,521213 - Belanja Honor Output Kegiatan,521219 - Belanja Barang Non Opeasional Lainnya,521811 - Belanja Barang Persediaan Barang Konsumsi,522131 - Belanja Jasa Konsultan,522141 - Belanja Sewa,522151 - Belanja Jasa Profesi,522191 - Belanja Jasa Lainnya,522192 - Belanja Jasa - Penanganan Pandemi COVID-19,523121 - Belanja Pemeliharaan Peralatan dan Mesin,524111 - Belanja Perjalanan Dinas Biasa,524113 - Belanja Perjalanan Dinas Dalam Kota,524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota,524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota,524219 - Belanja Perjalanan Dinas Lainnya - Luar Negeri,532111 - Belanja Modal Peralatan dan Mesin,532121 - Belanja Penambahan Nilai Peralatan dan Mesin,536111 - Belanja Modal Lainnya)
+komponen = c("4130.ABG.001.051", "4130.ABG.001.052", "4130.ABG.001.053", "4130.AFA.001.051", "4130.AFA.001.052", "4130.AFA.001.053", "4130.CAB.001.053", "4130.CAN.001.051")
+kegiatan = c("051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan",
+"052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan",
+"053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu",
+"051.A - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Keamanan Pangan",
+"051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu",
+"051.C - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Mutu Pangan Olahan",
+"051.D - Evaluasi Kualitas Kebijakan / Standar Pangan Olahan",
+"051.E - Evaluasi Pelayanan Publik Direktorat Standardisasi Pangan Olahan",
+"051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan",
+"051.G - Automatic Adjusment (Pemblokiran)",
+"052.A - Partisipasi Aktif pada Sidang Codex dan Pertemuan Internasional",
+"052.B - Persiapan Posisi Indonesia pada Pertemuan Internasional",
+"052.C - Advokasi dan Sosialisasi Standar Pangan",
+"053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan",
+"053.B - Evaluasi dan Perencanaan Direktorat Standardisasi Pangan Olahan",
+"053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan",
+"053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan",
+"053.E - Monitoring dan Evaluasi Pelaksanaan Anggaran Direktorat Standardisasi Pangan Olahan",
+"053.F - Forum Koordinasi Teknis Deputi Bidang Pengawasan Pangan Olahan pada Direktorat Standardisasi Pangan Olahan",
+"053.G - Perkuatan Jejaring Lintas Sektor dalam Rangka Standardisasi Pangan Olahan",
+"053.A - Pengadaan Peralatan Fasilitas Perkantoran pada Direktorat Pengawasan Produksi Pangan Olahan",
+"053.B - Pengadaan Peralatan Fasilitas Perkantoran pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan",
+"053.C - Pengadaan Peralatan Fasilitas Perkantoran pada Direktorat Standardisasi Pangan Olahan",
+"051.A - Pengadaan Perangkat Pengolah Data pada Direktorat Standardisasi Pangan Olahan",
+"051.B - Pengadaan Perangkat Pengolah Data pada Direktorat Pengawasan Produksi Pangan Olahan",
+"051.C - Pengadaan Perangkat Pengolah Data dalam rangka Pelayanan Publik Direktorat Registrasi Pangan Olahan",
+"051.D - Pengadaan Perangkat Pengolah Data pada Direktorat Pengawasan Peredaran Pangan Olahan",
+"051.E - Pengadaan Perangkat Pengolah Data pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan)
+mak = c("521111 - Belanja Keperluan Perkantoran","521115 - Belanja Honor Operasional Satuan Kerja","521131 - Belanja Barang Operasional - Penanganan Pandemi COVID-19","521211 - Belanja Bahan","521213 - Belanja Honor Output Kegiatan","521219 - Belanja Barang Non Opeasional Lainnya","521811 - Belanja Barang Persediaan Barang Konsumsi","522131 - Belanja Jasa Konsultan","522141 - Belanja Sewa","522151 - Belanja Jasa Profesi","522191 - Belanja Jasa Lainnya","522192 - Belanja Jasa - Penanganan Pandemi COVID-19","523121 - Belanja Pemeliharaan Peralatan dan Mesin","524111 - Belanja Perjalanan Dinas Biasa","524113 - Belanja Perjalanan Dinas Dalam Kota","524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota","524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota","524219 - Belanja Perjalanan Dinas Lainnya - Luar Negeri","532111 - Belanja Modal Peralatan dan Mesin","532121 - Belanja Penambahan Nilai Peralatan dan Mesin","536111 - Belanja Modal Lainnya")
 detail = detail dari kegiatan
 jumlah
 modal = c(RM, PNP)
