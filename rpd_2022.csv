@@ -29,21 +29,101 @@ ro;komponen;kegiatan;mak;detail;jumlah;modal;minggu;bulan
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;521211 - Belanja Bahan;Makan Siang Pertemuan Pembahasan;846000;RM;3;12
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;521211 - Belanja Bahan;Snack Pertemuan Pembahasan;396000;RM;3;12
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;521211 - Belanja Bahan;Snack Pertemuan Pembahasan;396000;RM;3;12
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;3;3
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;3;3
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;2;4
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;2;4
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;4;6
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;4;6
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;2;7
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;2;7
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;2;8
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;2;8
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;2;11
-4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;3000000;RM;2;11
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;3;3
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;3;3
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;2;4
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;2;4
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;6
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;6
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;2;7
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;2;7
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;2;8
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;2;8
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;2;11
+4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;2;11
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Paket Pertemuan Fullday dalam Kota;12900000;RM;1;6
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Uang Harian Fullday;3900000;RM;1;6
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Uang Transport;4500000;RM;1;6
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Paket Pertemuan Fullday dalam Kota;12900000;RM;4;10
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Uang Harian Fullday;3900000;RM;4;10
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Uang Transport;4500000;RM;4;10
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Penggandaan;425000;RM;3;12
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Makan Siang;940000;RM;4;3
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Snack;440000;RM;4;3
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Makan Siang;940000;RM;4;4
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Snack;440000;RM;4;4
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Makan Siang;940000;RM;4;5
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Snack;440000;RM;4;5
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Makan Siang;940000;RM;4;6
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Snack;440000;RM;4;6
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Makan Siang;940000;RM;4;7
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Snack;440000;RM;4;7
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Makan Siang;940000;RM;4;8
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Snack;440000;RM;4;8
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Makan Siang;940000;RM;4;9
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Snack;440000;RM;4;9
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Makan Siang;940000;RM;4;10
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Snack;440000;RM;4;10
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Makan Siang;940000;RM;4;11
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;521211 - Belanja Bahan;Snack;440000;RM;4;11
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;3
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;4
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;5
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;6
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;7
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;8
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;9
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;10
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;4;11
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;9000000;RM;2;12
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Paket Pertemuan Fullday dalam Kota;15155000;RM;3;6
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Uang Harian Fullday;3250000;RM;3;6
+4130.ABG;4130.ABG.001.052;052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Uang Transport;3750000;RM;3;6
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Pelaporan;148000;RM;2;12
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;4;3
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;4;3
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;4;4
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;4;4
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;4;5
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;4;5
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;4;6
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;4;6
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;3;7
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;3;7
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;4;7
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;4;7
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;3;8
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;3;8
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;3;9
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;3;9
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;1;10
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;1;10
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;4;10
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;4;10
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;2;11
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;2;11
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;4;11
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;4;11
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang;940000;RM;2;12
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;521211 - Belanja Bahan;Snack;440000;RM;2;12
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;3;3
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;3;4
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;3;5
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;3;6
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;1;7
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;4;7
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;1;8
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;4;8
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;2;9
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;4;9
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;2;10
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;4;10
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;2;11
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;4;11
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;8000000;RM;3;12
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Paket Pertemuan Fullday dalam Kota;12990000;RM;4;5
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Uang Harian Fullday;3900000;RM;4;5
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Uang Transport;4500000;RM;4;5
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Paket Pertemuan Fullday dalam Kota;12990000;RM;3;9
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Uang Harian Fullday;3900000;RM;3;9
+4130.ABG;4130.ABG.001.053;053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu;524114 - Beban Perjalanan Dinas Paket Meeting Dalam Kota;Uang Transport;4500000;RM;3;9
