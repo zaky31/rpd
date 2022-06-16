@@ -31,7 +31,6 @@ kegiatan = c("051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan",
 "051.E - Pengadaan Perangkat Pengolah Data pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan")
 mak = c("521111 - Belanja Keperluan Perkantoran","521115 - Belanja Honor Operasional Satuan Kerja","521131 - Belanja Barang Operasional - Penanganan Pandemi COVID-19","521211 - Belanja Bahan","521213 - Belanja Honor Output Kegiatan","521219 - Belanja Barang Non Opeasional Lainnya","521811 - Belanja Barang Persediaan Barang Konsumsi","522131 - Belanja Jasa Konsultan","522141 - Belanja Sewa","522151 - Belanja Jasa Profesi","522191 - Belanja Jasa Lainnya","522192 - Belanja Jasa - Penanganan Pandemi COVID-19","523121 - Belanja Pemeliharaan Peralatan dan Mesin","524111 - Belanja Perjalanan Dinas Biasa","524113 - Belanja Perjalanan Dinas Dalam Kota","524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota","524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota","524219 - Belanja Perjalanan Dinas Lainnya - Luar Negeri","532111 - Belanja Modal Peralatan dan Mesin","532121 - Belanja Penambahan Nilai Peralatan dan Mesin","536111 - Belanja Modal Lainnya")
 detail = detail dari kegiatan
-jumlah
 modal = c(RM, PNP)
 minggu = c(1,2,3,4)
 bulan = c(1,2,3,4,5,6,7,8,9,10,11,12)
