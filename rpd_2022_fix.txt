@@ -1,4 +1,4 @@
-ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`10`;`11`;`12`
+ro;komponen;kegiatan;mak;detail;modal;week;01-Jan;02-Feb;03-Mar;04-Apr;05-May;06-Jun;07-Jul;08-Aug;09-Sep;10-Oct;11-Nov;12-Dec
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;521211 - Belanja Bahan;Pelaporan;RM;1;;;;;;;;;;;;309000
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;521211 - Belanja Bahan;Pelaporan;RM;2;;;;;;;;;;;;
 4130.ABG;4130.ABG.001.051;051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan;521211 - Belanja Bahan;Pelaporan;RM;3;;;;;;;;;;;;
@@ -95,11 +95,11 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.051;051.A - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Keamanan Pangan;524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota;Finalisasi;RM;2;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.A - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Keamanan Pangan;524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota;Finalisasi;RM;3;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.A - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Keamanan Pangan;524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota;Finalisasi;RM;4;;;;;;;30000000;49320000;15600000;;;
-4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang dan Snack;RM;1;;;1547000;1547000;;1547000;1547000;;;1547000;1547000;1547000
-4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang dan Snack;RM;2;;;1547000;1547000;;1547000;1547000;;;1547000;1547000;
-4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang dan Snack;RM;3;;;1547000;3094000;;3094000;1547000;;;1547000;1547000;
-4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang dan Snack;RM;4;;;;;;3094000;1547000;;;;;
-4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Penjilidan dan Pelaporan;RM;1;;;;;;;;;;;;654000
+4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang dan Snack;RM;1;;;1547000;1547000;;1547000;1340400;;;1340400;1340400;1065000
+4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang dan Snack;RM;2;;;1547000;1547000;;1547000;1340400;;;1340400;1340400;
+4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang dan Snack;RM;3;;;1547000;3094000;;3094000;1340400;;;1340400;1340400;
+4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Makan Siang dan Snack;RM;4;;;;;;3094000;1340400;;;;;
+4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Penjilidan dan Pelaporan;RM;1;;;;;;;;;;;;482000
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Penjilidan dan Pelaporan;RM;2;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Penjilidan dan Pelaporan;RM;3;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521211 - Belanja Bahan;Penjilidan dan Pelaporan;RM;4;;;;;;;;;;;;
@@ -109,15 +109,15 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;521213 - Belanja Honor Output Kegiatan;Honor Tim Pelaksana Konsultasi Publik;RM;4;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;RM;1;;;;16000000;;8000000;8000000;;;16000000;;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;RM;2;;;16000000;8000000;8000000;;8000000;8000000;8000000;8000000;;
-4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;RM;3;;;16000000;;;;;;;16000000;16000000;
+4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;RM;3;;;16000000;;;;;;;16000000;15000000;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;522151 - Belanja Jasa Profesi;Honor Narasumber Pembahasan;RM;4;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;522191 - Belanja Jasa Lainnya;Jasa Konsultasi Kegiatan Uji Tantangan pada Minuman Teh Dalam Kemasan;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;522191 - Belanja Jasa Lainnya;Jasa Konsultasi Kegiatan Uji Tantangan pada Minuman Teh Dalam Kemasan;RM;2;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;522191 - Belanja Jasa Lainnya;Jasa Konsultasi Kegiatan Uji Tantangan pada Minuman Teh Dalam Kemasan;RM;3;;;63096000;;;;;;63096000;;84128000;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;522191 - Belanja Jasa Lainnya;Jasa Konsultasi Kegiatan Uji Tantangan pada Minuman Teh Dalam Kemasan;RM;4;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;524111 - Belanja Perjalanan Dinas Biasa;Kunjungan Lab. Uji Tantangan di Jawa Barat;RM;1;;;;;;;;;;;;
-4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;524111 - Belanja Perjalanan Dinas Biasa;Kunjungan Lab. Uji Tantangan di Jawa Barat;RM;2;;;;;;7000000;;;;;;
-4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;524111 - Belanja Perjalanan Dinas Biasa;Kunjungan Lab. Uji Tantangan di Jawa Barat;RM;3;;;;;;6020000;;;;;;
+4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;524111 - Belanja Perjalanan Dinas Biasa;Kunjungan Lab. Uji Tantangan di Jawa Barat;RM;2;;;;;8370000;;;;;;;
+4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;524111 - Belanja Perjalanan Dinas Biasa;Kunjungan Lab. Uji Tantangan di Jawa Barat;RM;3;;;;;;8370000;;;;;;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;524111 - Belanja Perjalanan Dinas Biasa;Kunjungan Lab. Uji Tantangan di Jawa Barat;RM;4;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Rapat Pembahasan;RM;1;;;;;;;;;;;;21390000
 4130.AFA;4130.AFA.001.051;051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Rapat Pembahasan;RM;2;;;;;;;;;;;;
@@ -185,27 +185,27 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.051;051.E - Evaluasi Pelayanan Publik Direktorat Standardisasi Pangan Olahan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Pertemuan Fullday Dalam Kota;RM;4;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Pembelian Sampel;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Pembelian Sampel;RM;2;;;;;;;;;;;;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Pembelian Sampel;RM;3;;;;;;;;;;;3829000;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Pembelian Sampel;RM;3;;;;;;;;;;;2115000;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Pembelian Sampel;RM;4;;;;;;;;;;;;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;1;;2093000;;;2093000;;2093000;;;;;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;2;;;2093000;;2093000;2093000;2093000;2093000;;;;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;3;;;2093000;;;2093000;;;2093000;2093000;;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;4;;;;;;2093000;;;;2093000;;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;1;;2093000;;;2093000;;1395000;;;;;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;2;;;2093000;;2093000;2093000;1395000;1395000;;;;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;3;;;2093000;;;2093000;;;1395000;1395000;;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;4;;;;;;2093000;;;;1397000;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521213 - Belanja Honor Output Kegiatan;Honor Tim Pelaksana Workshop;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521213 - Belanja Honor Output Kegiatan;Honor Tim Pelaksana Workshop;RM;2;;;;;;;;;;;3100000;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521213 - Belanja Honor Output Kegiatan;Honor Tim Pelaksana Workshop;RM;3;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;521213 - Belanja Honor Output Kegiatan;Honor Tim Pelaksana Workshop;RM;4;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber;RM;1;;;;;;;;;;;;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber;RM;2;;;12000000;;12000000;3000000;12000000;12000000;12000000;12000000;;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber;RM;3;;;;;;12000000;;;12000000;3000000;;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber;RM;2;;;12000000;;12000000;;12000000;12000000;6000000;11300000;;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber;RM;3;;;;;;12000000;;;12000000;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber;RM;4;;;;3000000;;;14700000;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522191 - Belanja Jasa Lainnya;Pengujian Keamanan;RM;1;;;;;;;;;;;;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522191 - Belanja Jasa Lainnya;Pengujian Keamanan;RM;2;;;;;;;;18080000;;;;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522191 - Belanja Jasa Lainnya;Pengujian Keamanan;RM;2;;;;;;;;25000000;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522191 - Belanja Jasa Lainnya;Pengujian Keamanan;RM;3;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;522191 - Belanja Jasa Lainnya;Pengujian Keamanan;RM;4;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524111 - Belanja Perjalanan Dinas Biasa;Perjalanan Dinas - Manado, Pontianak, Purbalingga;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524111 - Belanja Perjalanan Dinas Biasa;Perjalanan Dinas - Manado, Pontianak, Purbalingga;RM;2;;;;;;;;;;;;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524111 - Belanja Perjalanan Dinas Biasa;Perjalanan Dinas - Manado, Pontianak, Purbalingga;RM;3;;;;34984000;;;;;;26016000;;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524111 - Belanja Perjalanan Dinas Biasa;Perjalanan Dinas - Manado, Pontianak, Purbalingga;RM;3;;;;34984000;;;;;;28696000;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524111 - Belanja Perjalanan Dinas Biasa;Perjalanan Dinas - Manado, Pontianak, Purbalingga;RM;4;;;;;;29900000;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Pembahasan dan Workhop;RM;1;;;;19280000;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Pembahasan dan Workhop;RM;2;;;;;;;;;;;;
@@ -213,8 +213,8 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Pembahasan dan Workhop;RM;4;;;;;;19280000;;;19280000;66600000;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota;Pertemuan Fullboard;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota;Pertemuan Fullboard;RM;2;;;;;;;;;;;;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota;Pertemuan Fullboard;RM;3;;;;;;;;;;;43500000;
-4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota;Pertemuan Fullboard;RM;4;;;;;;43500000;;;;;;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota;Pertemuan Fullboard;RM;3;;;;;;;;;;;48000000;
+4130.AFA;4130.AFA.001.051;051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan;524119 - Belanja Perjalanan Dinas Paket Meeting Luar Kota;Pertemuan Fullboard;RM;4;;;;;;48000000;;;;;;
 4130.AFA;4130.AFA.001.051;051.G - Automatic Adjusment (Pemblokiran);524219 - Belanja Perjalanan Dinas Lainnya - Luar Negeri;Sidang Codex;RM;1;;;;;;;;;;;;122400000
 4130.AFA;4130.AFA.001.051;051.G - Automatic Adjusment (Pemblokiran);524219 - Belanja Perjalanan Dinas Lainnya - Luar Negeri;Sidang Codex;RM;2;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.051;051.G - Automatic Adjusment (Pemblokiran);524219 - Belanja Perjalanan Dinas Lainnya - Luar Negeri;Sidang Codex;RM;3;;;;;;;;;;;;
@@ -253,7 +253,7 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.052;052.B - Persiapan Posisi Indonesia pada Pertemuan Internasional;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Pertemuan Penyusunan Sidang Codex dan eWG;RM;2;;;;;;;;19990000;;;;
 4130.AFA;4130.AFA.001.052;052.B - Persiapan Posisi Indonesia pada Pertemuan Internasional;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Pertemuan Penyusunan Sidang Codex dan eWG;RM;3;;;;19990000;;;;;;19990000;;
 4130.AFA;4130.AFA.001.052;052.B - Persiapan Posisi Indonesia pada Pertemuan Internasional;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Pertemuan Penyusunan Sidang Codex dan eWG;RM;4;;;;;;19990000;;;;;19990000;
-4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;1;;;1035000;;;;;;;;;
+4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;2;;;;;;;;;13500000;;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;3;;;;;;;;13500000;13500000;13500000;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;521211 - Belanja Bahan;Makan Siang dan Snack;RM;4;;;;;;;;13500000;13500000;13500000;;
@@ -286,7 +286,7 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;522151 - Belanja Jasa Profesi;Honor Narsumber KIE Jawa Timur dan Advokasi;RM;3;;;;;;;;6800000;6800000;6800000;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;522151 - Belanja Jasa Profesi;Honor Narsumber KIE Jawa Timur dan Advokasi;RM;4;;;;4000000;;;;6800000;6800000;6800000;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524111 - Belanja Perjalanan Dinas Biasa;Kegiatan Advokasi;RM;1;;;;;;;;;;;;
-4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524111 - Belanja Perjalanan Dinas Biasa;Kegiatan Advokasi;RM;2;;;;;;41560000;;;53170857;53170857;;
+4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524111 - Belanja Perjalanan Dinas Biasa;Kegiatan Advokasi;RM;2;;;;;;39000000;;;53170857;53170857;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524111 - Belanja Perjalanan Dinas Biasa;Kegiatan Advokasi;RM;3;;;;;;126407000;;;53170857;53170857;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524111 - Belanja Perjalanan Dinas Biasa;Kegiatan Advokasi;RM;4;;;;;;;;;53170857;53170857;53170857;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Paket Pertemuan Fullday;RM;1;;;;;;;;;;;;
@@ -311,7 +311,7 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;522151 - Belanja Jasa Profesi;Honor Narasumber;RM;4;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;522191 - Belanja Jasa Lainnya;Pelatihan-Pelatihan Kolektf;RM;1;;;;;22500000;;;;;;;30750000
 4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;522191 - Belanja Jasa Lainnya;Pelatihan-Pelatihan Kolektf;RM;2;;;;;;40000000;;;;;10250000;
-4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;522191 - Belanja Jasa Lainnya;Pelatihan-Pelatihan Kolektf;RM;3;;;;;;;;40000000;;;;
+4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;522191 - Belanja Jasa Lainnya;Pelatihan-Pelatihan Kolektf;RM;3;;;;;;;;30000000;;;;
 4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;522191 - Belanja Jasa Lainnya;Pelatihan-Pelatihan Kolektf;PNP;4;;;;;;;;;;;25500000;
 4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;524111 - Belanja Perjalanan Dinas Biasa;Pelatihan Graphic Design;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;524111 - Belanja Perjalanan Dinas Biasa;Pelatihan Graphic Design;RM;2;;;;;;;;;;;;1080000
@@ -321,6 +321,10 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Perjadin Workshop;RM;2;;;;;;;;;;;1400000;
 4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Perjadin Workshop;RM;3;;;;;;;;73898000;;;;
 4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Perjadin Workshop;RM;4;;;;;;;;;;;;
+4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;524219 - Belanja Perjalanan Dinas Lainnya - Luar Negeri;International Short Course In Food Safety;RM;1;;;;;;;;;;;;
+4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;524219 - Belanja Perjalanan Dinas Lainnya - Luar Negeri;International Short Course In Food Safety;RM;2;;;;;;;;;;;;
+4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;524219 - Belanja Perjalanan Dinas Lainnya - Luar Negeri;International Short Course In Food Safety;RM;3;;;;;;;;;;;;15201000
+4130.AFA;4130.AFA.001.053;053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan;524219 - Belanja Perjalanan Dinas Lainnya - Luar Negeri;International Short Course In Food Safety;RM;4;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.053;053.B - Evaluasi dan Perencanaan Direktorat Standardisasi Pangan Olahan;521211 - Belanja Bahan;Makan Siang, Snack, dan Penjilidan;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.053;053.B - Evaluasi dan Perencanaan Direktorat Standardisasi Pangan Olahan;521211 - Belanja Bahan;Makan Siang, Snack, dan Penjilidan;RM;2;;;;;;;;;;;;11128000
 4130.AFA;4130.AFA.001.053;053.B - Evaluasi dan Perencanaan Direktorat Standardisasi Pangan Olahan;521211 - Belanja Bahan;Makan Siang, Snack, dan Penjilidan;RM;3;;;;;;;;;;;;
@@ -330,9 +334,9 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.053;053.B - Evaluasi dan Perencanaan Direktorat Standardisasi Pangan Olahan;522191 - Belanja Jasa Lainnya;Paket Motivasi;PNP;3;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.053;053.B - Evaluasi dan Perencanaan Direktorat Standardisasi Pangan Olahan;522191 - Belanja Jasa Lainnya;Paket Motivasi;PNP;4;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Keperluan Sehari-hari;PNP;1;;3000000;1500000;1500000;1500000;1500000;1500000;1500000;1500000;1500000;3000000;
-4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Biaya Langganan Internet;PNP;2;;2000000;2000000;2000000;2000000;2000000;2000000;;;;;
+4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Biaya Langganan Internet;PNP;2;;2000000;2000000;2000000;2000000;2000000;2000000;2000000;;;;
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Biaya Langganan Fax;PNP;3;;350000;175000;175000;175000;175000;175000;175000;175000;175000;175000;175000
-4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Pengiriman Paket;RM;4;;;1745500;;;1745500;;;1745500;;1745500;
+4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Pengiriman Paket;RM;4;;;1344000;;;1344000;;;1344000;;1344000;
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521131 - Belanja Barang Operasional - Penanganan Pandemi COVID-19;Masker Medis;RM;1;;15000000;7500000;7500000;7500000;7500000;7500000;7500000;7500000;7500000;7500000;7500000
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521131 - Belanja Barang Operasional - Penanganan Pandemi COVID-20;Handsanitizer;RM;2;;;900000;;;900000;;;900000;;900000;
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521131 - Belanja Barang Operasional - Penanganan Pandemi COVID-21;Penambah Daya Tahan Tubuh;RM;3;;14500000;14500000;9500000;14500000;;;14500000;14500000;14500000;13900000;14500000
@@ -344,7 +348,7 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521811 - Belanja Barang Persediaan Barang Konsumsi;Pengadaan ATK dan Keperluan Kantor;PNP;1;;;;3650000;3650000;;;3650000;;3650000;;
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521811 - Belanja Barang Persediaan Barang Konsumsi;Pengadaan ATK dan Keperluan Kantor;PNP;2;;;10950000;;;3650000;3650000;;3650000;;3650000;3650000
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521811 - Belanja Barang Persediaan Barang Konsumsi;Pencetakan Buku;PNP;3;;;;;;;;;;;;
-4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521811 - Belanja Barang Persediaan Barang Konsumsi;Pencetakan Buku;PNP;4;;;;;13000000;;;30000000;;;37072000;
+4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;521811 - Belanja Barang Persediaan Barang Konsumsi;Pencetakan Buku;PNP;4;;;;;13000000;;;30000000;;;35072000;
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;522141 - Belanja Sewa;Sewa Mesin Fotocopy;PNP;1;;;3600000;;;;;;;;;
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;522141 - Belanja Sewa;Sewa Mesin Fotocopy;PNP;2;;;;1200000;1200000;1200000;;;1200000;;;
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;522141 - Belanja Sewa;Sewa Mesin Fotocopy;PNP;3;;;;;;;1200000;;;1200000;;1200000
@@ -355,8 +359,9 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.AFA;4130.AFA.001.053;053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan;522192 - Belanja Jasa - Penanganan Pandemi COVID-22;Pemeriksaan Swab PCR;RM;4;;;885000;;;885000;;;;;;
 4130.AFA;4130.AFA.001.053;053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Storage Gdrive;RM;1;;;500000;500000;;;500000;;;;;
 4130.AFA;4130.AFA.001.053;053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Zoom;RM;2;;4000000;2000000;2000000;2000000;2000000;2000000;2000000;2000000;2000000;2000000;2000000
-4130.AFA;4130.AFA.001.053;053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Biaya Langganan Multimedia;RM;3;;;2500000;1500000;600000;1000000;600000;600000;1670000;;;
+4130.AFA;4130.AFA.001.053;053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Biaya Langganan Multimedia;RM;3;;;2500000;1500000;600000;1000000;600000;470000;;;;
 4130.AFA;4130.AFA.001.053;053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Paket Data Dit. SPO;RM;4;;;10000000;10000000;10000000;10000000;10000000;10000000;10000000;10000000;15000000;15000000
+4130.AFA;4130.AFA.001.053;053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan;521111 - Belanja Keperluan Perkantoran;Langganan Firewall Subsite;RM;2;;;;;;900000;150000;150000;150000;150000;150000;150000
 4130.AFA;4130.AFA.001.053;053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan;521131 - Belanja Barang Operasional - Penanganan Pandemi COVID-19;Paket Data Dit. SPO selain Es II;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.053;053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan;521131 - Belanja Barang Operasional - Penanganan Pandemi COVID-20;Paket Data Dit. SPO selain Es II;RM;2;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.053;053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan;521131 - Belanja Barang Operasional - Penanganan Pandemi COVID-21;Paket Data Dit. SPO selain Es II;RM;3;;8052000;;;;;;;;;;
@@ -429,4 +434,3 @@ ro;komponen;kegiatan;mak;detail;modal;week;`1`;`2`;`3`;`4`;`5`;`6`;`7`;`8`;`9`;`
 4130.CAN;4130.CAN.001.051;051.E - Pengadaan Perangkat Pengolah Data pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan;532111 - Belanja Modal Peralatan dan Mesin;Pengadaan APD Dit. PMPU;PNP;2;;;;;;;;;;75000000;20000000;
 4130.CAN;4130.CAN.001.051;051.E - Pengadaan Perangkat Pengolah Data pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan;532111 - Belanja Modal Peralatan dan Mesin;Pengadaan APD Dit. PMPU;PNP;3;;;;;28350000;;;;;25300000;10000000;
 4130.CAN;4130.CAN.001.051;051.E - Pengadaan Perangkat Pengolah Data pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan;532111 - Belanja Modal Peralatan dan Mesin;Pengadaan APD Dit. PMPU;PNP;4;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;
