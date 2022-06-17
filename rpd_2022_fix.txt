@@ -288,7 +288,7 @@ ro;komponen;kegiatan;mak;detail;modal;week;01-Jan;02-Feb;03-Mar;04-Apr;05-May;06
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524111 - Belanja Perjalanan Dinas Biasa;Kegiatan Advokasi;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524111 - Belanja Perjalanan Dinas Biasa;Kegiatan Advokasi;RM;2;;;;;;39000000;;;53170857;53170857;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524111 - Belanja Perjalanan Dinas Biasa;Kegiatan Advokasi;RM;3;;;;;;126407000;;;53170857;53170857;;
-4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524111 - Belanja Perjalanan Dinas Biasa;Kegiatan Advokasi;RM;4;;;;;;;;;53170857;53170857;53170857;
+4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524111 - Belanja Perjalanan Dinas Biasa;Kegiatan Advokasi;RM;4;;;;;;;;;53170857;53170857;53170858;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Paket Pertemuan Fullday;RM;1;;;;;;;;;;;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Paket Pertemuan Fullday;RM;2;;;;;;;21300000;;;;;
 4130.AFA;4130.AFA.001.052;052.C - Advokasi dan Sosialisasi Standar Pangan;524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota;Paket Pertemuan Fullday;RM;3;;;;;63900000;;;;21300000;;;
