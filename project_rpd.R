@@ -1,16 +1,124 @@
-library(tidyverse)
+require(tidyverse)
+require(googlesheets4)
 
 #======= Pagu Anggaran ========
+gs4_deauth()
+pagu <- read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "Rincian Kertas Kerja")
+
+pagu$rincian_output <- factor(pagu$rincian_output,levels = c("4130.ABG.001 - Kajian Keamanan, Mutu, Gizi dan Manfaat Pangan Olahan yang Diselesaikan","4130.AFA.001 - Standar Pangan Olahan yang Disusun","4130.CAN.001 - Perangkat Pengolah Data dan Komunikasi","4130.CAB.001 - Sarana Pengawasan Pangan Olahan"))
+levels(pagu$rincian_output) <- c("4130.ABG.001","4130.AFA.001","4130.CAN.001","4130.CAB.001")
+pagu$komponen <- factor(pagu$komponen, levels = c("4130.ABG.001.051 - Kajian dan Evaluasi Standardisasi Keamanan Pangan","4130.AFA.001.051 - Penyusunan Norma Standar Prosedur dan Kriteria (NSPK) di Bidang Pangan","4130.AFA.001.053 - Monitoring dan Evaluasi Kinerja Standardisasi Pangan Olahan","4130.ABG.001.052 - Kajian dan Evaluasi Standardisasi Mutu Pangan Olahan","4130.ABG.001.053 - Kajian dan Evaluasi Standardisasi Pangan Olahan Tertentu","4130.AFA.001.052 - Koordinasi dan Harmonisasi Standar Pangan Olahan","4130.CAN.001.051 - Pengadaan Perangkat Pengolah Data dan Komunikasi","4130.CAB.001.053 - Pengadaan Peralatan Fasilitas Perkantoran"))
+levels(pagu$komponen) <- c("4130.ABG.001.051","4130.AFA.001.051","4130.AFA.001.053","4130.ABG.001.052","4130.ABG.001.053","4130.AFA.001.052","4130.CAN.001.051","4130.CAB.001.053")
+pagu$kegiatan <- factor(pagu$kegiatan, levels = c("051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan"                                                         
+                                                            ,"051.A - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Keamanan Pangan"                
+                                                            ,"053.E - Monitoring dan Evaluasi Pelaksanaan Anggaran Direktorat Standardisasi Pangan Olahan"                             
+                                                            ,"051.C - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Mutu Pangan Olahan"             
+                                                            ,"053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan"                                                    
+                                                            ,"051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu"         
+                                                            ,"053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan"                                           
+                                                            ,"053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan"                                      
+                                                            ,"052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan"                                                
+                                                            ,"053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu"                                            
+                                                            ,"052.B - Persiapan Posisi Indonesia pada Pertemuan Internasional"                                                         
+                                                            ,"053.G - Perkuatan Jejaring Lintas Sektor dalam Rangka Standardisasi Pangan Olahan"                                       
+                                                            ,"051.D - Pengadaan Perangkat Pengolah Data pada Direktorat Pengawasan Peredaran Pangan Olahan"                            
+                                                            ,"053.B - Pengadaan Peralatan Fasilitas Perkantoran pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan"
+                                                            ,"051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan"                                              
+                                                            ,"051.E - Evaluasi Pelayanan Publik Direktorat Standardisasi Pangan Olahan"                                                
+                                                            ,"051.B - Pengadaan Perangkat Pengolah Data pada Direktorat Pengawasan Produksi Pangan Olahan"                             
+                                                            ,"052.C - Advokasi dan Sosialisasi Standar Pangan"                                                                         
+                                                            ,"051.C - Pengadaan Perangkat Pengolah Data dalam rangka Pelayanan Publik Direktorat Registrasi Pangan Olahan"             
+                                                            ,"053.C - Pengadaan Peralatan Fasilitas Perkantoran pada Direktorat Standardisasi Pangan Olahan"                           
+                                                            ,"051.E - Pengadaan Perangkat Pengolah Data pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan"        
+                                                            ,"051.A - Pengadaan Perangkat Pengolah Data pada Direktorat Standardisasi Pangan Olahan"                                   
+                                                            ,"052.A - Partisipasi Aktif pada Sidang Codex dan Pertemuan Internasional"))
+pagu$`kode akun` <- factor(pagu$`kode akun`)
+pagu$jenis_modal <- factor(pagu$jenis_modal, levels = c("RM","PNP"))
+pagu$jenis_belanja <- factor(pagu$jenis_belanja, levels = c("Belanja Barang","Belanja Modal"))
+#str(pagu)
+
 
 #======= Realisasi Anggaran =========
-realisasi <- as_tibble(read.table("https://combinatronics.com/zaky31/anggaran/main/realisasi_2022.txt", sep = ";", header = TRUE))
+gs4_deauth()
+realisasi <- read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "INPUT UP TUP")
+realisasi <- realisasi %>% drop_na(jml)
+
+#realisasi %>% print(n = Inf)
+realisasi$bulan <- factor(realisasi$bulan, levels = c("01-January","02-February","03-March","04-April","05-May","06-June","07-July","08-August","09-September","10-October","11-November","12-December"))
+realisasi$rincian_output <- factor(realisasi$rincian_output, levels = c("4130.ABG.001 - Kajian Keamanan, Mutu, Gizi dan Manfaat Pangan Olahan yang Diselesaikan","4130.AFA.001 - Standar Pangan Olahan yang Disusun","4130.CAN.001 - Perangkat Pengolah Data dan Komunikasi","4130.CAB.001 - Sarana Pengawasan Pangan Olahan"))
+levels(realisasi$rincian_output) <- c("4130.ABG.001","4130.AFA.001","4130.CAN.001","4130.CAB.001")
+realisasi$komponen <- factor(realisasi$komponen, levels = c("4130.ABG.001.051 - Kajian dan Evaluasi Standardisasi Keamanan Pangan","4130.AFA.001.051 - Penyusunan Norma Standar Prosedur dan Kriteria (NSPK) di Bidang Pangan","4130.AFA.001.053 - Monitoring dan Evaluasi Kinerja Standardisasi Pangan Olahan","4130.ABG.001.052 - Kajian dan Evaluasi Standardisasi Mutu Pangan Olahan","4130.ABG.001.053 - Kajian dan Evaluasi Standardisasi Pangan Olahan Tertentu","4130.AFA.001.052 - Koordinasi dan Harmonisasi Standar Pangan Olahan","4130.CAN.001.051 - Pengadaan Perangkat Pengolah Data dan Komunikasi","4130.CAB.001.053 - Pengadaan Peralatan Fasilitas Perkantoran"))
+levels(realisasi$komponen) <- c("4130.ABG.001.051","4130.AFA.001.051","4130.AFA.001.053","4130.ABG.001.052","4130.ABG.001.053","4130.AFA.001.052","4130.CAN.001.051","4130.CAB.001.053")
+realisasi$kegiatan <- factor(realisasi$kegiatan, levels = c("051.A - Pelayanan Analisis dan Evaluasi Standar Keamanan Pangan"                                                         
+                                                            ,"051.A - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Keamanan Pangan"                
+                                                            ,"053.E - Monitoring dan Evaluasi Pelaksanaan Anggaran Direktorat Standardisasi Pangan Olahan"                             
+                                                            ,"051.C - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Mutu Pangan Olahan"             
+                                                            ,"053.C - Pelaksanaan Operasional Kegiatan Standardisasi Pangan Olahan"                                                    
+                                                            ,"051.B - Penyusunan dan Revisi Peraturan, Standar, Pedoman dan Code of Practice di Bidang Pangan Olahan Tertentu"         
+                                                            ,"053.A - Peningkatan Kompetensi Pegawai Direktorat Standardisasi Pangan Olahan"                                           
+                                                            ,"053.D - Pengelolaan Data dan Informasi pada Direktorat Standardisasi Pangan Olahan"                                      
+                                                            ,"052.A - Pelayanan Analisis dan Evaluasi Standardisasi Mutu Pangan Olahan"                                                
+                                                            ,"053.A - Pelayanan Analisis dan Evaluasi Standardisasi Pangan Olahan Tertentu"                                            
+                                                            ,"052.B - Persiapan Posisi Indonesia pada Pertemuan Internasional"                                                         
+                                                            ,"053.G - Perkuatan Jejaring Lintas Sektor dalam Rangka Standardisasi Pangan Olahan"                                       
+                                                            ,"051.D - Pengadaan Perangkat Pengolah Data pada Direktorat Pengawasan Peredaran Pangan Olahan"                            
+                                                            ,"053.B - Pengadaan Peralatan Fasilitas Perkantoran pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan"
+                                                            ,"051.F - Fasilitasi Standardisasi Keamanan, Mutu, dan Manfaat Pangan Olahan"                                              
+                                                            ,"051.E - Evaluasi Pelayanan Publik Direktorat Standardisasi Pangan Olahan"                                                
+                                                            ,"051.B - Pengadaan Perangkat Pengolah Data pada Direktorat Pengawasan Produksi Pangan Olahan"                             
+                                                            ,"052.C - Advokasi dan Sosialisasi Standar Pangan"                                                                         
+                                                            ,"051.C - Pengadaan Perangkat Pengolah Data dalam rangka Pelayanan Publik Direktorat Registrasi Pangan Olahan"             
+                                                            ,"053.C - Pengadaan Peralatan Fasilitas Perkantoran pada Direktorat Standardisasi Pangan Olahan"                           
+                                                            ,"051.E - Pengadaan Perangkat Pengolah Data pada Direktorat Pemberdayaan Masyarakat dan Pelaku Usaha Pangan Olahan"        
+                                                            ,"051.A - Pengadaan Perangkat Pengolah Data pada Direktorat Standardisasi Pangan Olahan"                                   
+                                                            ,"052.A - Partisipasi Aktif pada Sidang Codex dan Pertemuan Internasional"))
+realisasi$jenis_modal <- factor(realisasi$jenis_modal, levels = c("RM","PNP"))
+realisasi$jenis_belanja <- factor(realisasi$jenis_belanja, levels = c("Belanja Barang","Belanja Modal"))
 #str(realisasi)
 
 #===== Realisasi per bulan ======
-realisasi$bulan <- factor(realisasi$bulan, levels = c("01-January","02-February","03-March","04-April","05-May","06-June","07-July","08-August","09-September","10-October","11-November","12-December"))
 realisasi_1 <- realisasi %>% drop_na(bulan) %>% group_by(bulan, .drop = FALSE) %>% summarise(realisasi = sum(jml),.groups = 'drop')
 realisasi_1 <- add_column(realisasi_1, kumulatif = cumsum(as.numeric(realisasi_1$realisasi)))
-#realisasi_1
+#str(realisasi_1)
+
+#===== Realisasi untuk per jenis modal ======
+#modal <- left_join(pagu %>% group_by(komponen, jenis_belanja, jenis_modal, .drop = FALSE) %>% 
+#                     summarise(pagu = sum(jml), .groups = 'drop') %>%
+#                     filter(pagu > 0),
+#                   realisasi %>% drop_na(bulan) %>% group_by(komponen,jenis_belanja,jenis_modal, .drop = FALSE) %>% 
+#                     #filter(bulan %in% c("01-January")) %>%
+#                     summarise(realisasi = sum(jml), .groups = 'drop'),
+#          by = c('komponen'='komponen','jenis_belanja' = 'jenis_belanja','jenis_modal' = 'jenis_modal'))
+modal <- function(input){
+  left_join(pagu %>% group_by(komponen, jenis_belanja, jenis_modal, .drop = FALSE) %>% 
+              summarise(pagu = sum(jml), .groups = 'drop') %>%
+              filter(pagu > 0),
+            realisasi %>% drop_na(bulan) %>% group_by(komponen,jenis_belanja,jenis_modal, .drop = FALSE) %>% 
+              filter(bulan %in% input) %>%
+              summarise(realisasi = sum(jml), .groups = 'drop'),
+            by = c('komponen'='komponen','jenis_belanja' = 'jenis_belanja','jenis_modal' = 'jenis_modal'))
+}
+
+#===== Cek SPP =======
+spp <- realisasi %>% drop_na(jml) %>% group_by(no_spp) %>% summarise(realisasi = sum(jml), .groups = 'drop')
+#realisasi[which(realisasi$no_spp %in% "00728T"),c("no_spp","kegiatan","kode_akun","detail","jml","keterangan")]
+
+cek_spp <- function(input){
+  realisasi[which(realisasi$no_spp %in% input),c("no_spp","kegiatan","kode_akun","detail","jml","keterangan")]
+}
+
+#===== Realisasi POK =======
+#realisasi %>% group_by(rincian_output,kegiatan,kode_akun1) %>% summarise(realisasi = sum(jml), .groups = 'drop')
+#pagu %>% group_by(rincian_output,kegiatan,kode_akun1) %>% summarise(pagu = sum(jml), .groups = 'drop')
+pok_realisasi <- left_join(pagu %>% group_by(rincian_output,kegiatan,kode_akun1) %>% summarise(pagu = sum(jml), .groups = 'drop'),
+          realisasi %>% group_by(rincian_output,kegiatan,kode_akun1) %>% summarise(realisasi = sum(jml), .groups = 'drop'),
+          by = c('rincian_output','kegiatan','kode_akun1'))
+
+#realisasi[which(realisasi$no_spp %in% "00728T"),c("no_spp","kegiatan","kode_akun","detail","jml","keterangan")]
+
+cek_spp <- function(input){
+  realisasi[which(realisasi$no_spp %in% input),c("no_spp","kegiatan","kode_akun","detail","jml","keterangan")]
+}
 
 #======= Rencana Penarikan Dana =========
 rpd_2022 <- as_tibble(read.table("https://combinatronics.com/zaky31/rpd/main/rpd_2022_fix.txt", sep = ";", header = TRUE))
@@ -68,5 +176,3 @@ plot.rpd.1 <- ggplot(data = rpd_bulan, aes(x = 1:12, y = rpd)) +
   xlim(rpd_bulan$month) +
   xlab("Bulan") + ylab ("Anggaran") +
   theme_bw()
-
-
