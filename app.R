@@ -2,8 +2,10 @@ library(shiny)
 library(htmltools)
 library(reactable)
 library(plotly)
+source("project_rpd.R")
 
 ui <- fluidPage(
+  includeCSS("www/style.css"),
   tags$head(
     tags$meta(name="viewport", content="width=device-width, initial-scale=1.0")),
   navbarPage(title = "Monev Anggaran",
@@ -21,20 +23,21 @@ ui <- fluidPage(
                         )),
                       tags$div(
                         column(width = 6, class = "col-lg-6 col-md-6 col-sm-12",
-                               reactableOutput("table.4")),
+                               reactableOutput("table_4")),
                         column(width = 6, class = "col-lg-6 col-md-6 col-sm-12 vertical-center",
                                selectInput(inputId = "modal_1","Realisasi Berdasarkan Jenis Belanja dan Modal",
                                            choices = c("01-January","02-February","03-March","04-April","05-May","06-June","07-July","08-August","09-September","10-October","11-November","12-December"),
                                            selected = format(Sys.Date(), format = "%m-%B"),
                                            multiple = TRUE),
                                tags$p("Berdasarkan Realisasi OM SPAN"),
-                               reactableOutput("table.2"),
+                               reactableOutput("table_2"),
                                tags$strong("Daftar Berkas SPP"),
                                selectInput(inputId = "spp_1","",
                                            choices = spp$no_spp,
                                            selected = format(Sys.Date(), format = "%m-%B"),
+                                           width = '100%',
                                            multiple = TRUE),
-                               reactableOutput("table.3"))
+                               reactableOutput("table_3"))
                        )
                       ),
              tabPanel("RPD",
@@ -49,7 +52,7 @@ ui <- fluidPage(
                                  plotlyOutput("graph")),
                           column(width = 6, class = "col-lg-6 col-sm-12",
                                  tags$h3("Rencana Penarikan Dana tiap Bulan"),
-                                 reactableOutput("table.1"))
+                                 reactableOutput("table_1"))
                         ),
                         hr(),
                         tags$div(
@@ -63,38 +66,37 @@ ui <- fluidPage(
 )
 
 server <- function(input, output){
-  source("project_rpd.R")
   #===== Tabel Realisasi untuk per Jenis Belanja =========
-  output$table.4 <- renderReactable({
+  output$table_4 <- renderReactable({
     reactable(pok_realisasi,
               groupBy = c("rincian_output","kegiatan"),
               columns = list(
                 pagu = colDef(aggregate = "sum", format = colFormat(separators = TRUE, digits = 0)),
                 realisasi = colDef(aggregate = "sum", format = colFormat(separators = TRUE, digits = 0))
-              ),filterable = TRUE, highlight = TRUE, height = 1000)
+              ),filterable = TRUE, highlight = TRUE, height = 900)
   })
   #===== Tabel Realisasi untuk per Jenis Belanja =========
-  output$table.2 <- renderReactable({
+  output$table_2 <- renderReactable({
     reactable(modal(input$modal_1),
               groupBy = "komponen",
               columns = list(
                 pagu = colDef(aggregate = "sum", format = colFormat(separators = TRUE, digits = 0)),
                 realisasi = colDef(aggregate = "sum", format = colFormat(separators = TRUE, digits = 0))
               ),
-              pagination = FALSE, highlight = TRUE, height = 350)
+              pagination = FALSE, highlight = TRUE, height = 300)
   })
   #===== Tabel Cek untuk SPP =========
-  output$table.3 <- renderReactable({
+  output$table_3 <- renderReactable({
     reactable(cek_spp(input$spp_1),
               columns = list(
                 jml = colDef(aggregate = "sum", format = colFormat(separators = TRUE, digits = 0))
               ),
-              pagination = FALSE, highlight = TRUE, height = 350, filterable = TRUE)
+              pagination = FALSE, highlight = TRUE, height = 300, filterable = TRUE)
   })
   #===== Grafik Output RPD keseluruhan =========
   output$graph <- renderPlotly(ggplotly(plot.rpd.1, height = 500) %>% style(textposition = "left"))
   #===== Output RPD keseluruhan =========
-  output$table.1 <- renderReactable({
+  output$table_1 <- renderReactable({
     reactable(rpd_bulan,
               columns = list(
                 rpd = colDef(format = colFormat(separators = TRUE, digits = 0)),
