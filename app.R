@@ -2,6 +2,7 @@ library(shiny)
 library(htmltools)
 library(reactable)
 library(plotly)
+
 source("project_rpd.R")
 
 ui <- fluidPage(
@@ -9,13 +10,13 @@ ui <- fluidPage(
   tags$head(
     tags$meta(name="viewport", content="width=device-width, initial-scale=1.0")),
   navbarPage(title = "Monev Anggaran",
-             tabPanel("Home",
-                      tags$div(
-                        column(width = 11, tags$p('Untuk melakukan update data, klik "Update"')),
-                        column(width = 1, #actionButton("update", "UPDATE")
-                        )),
-                      tags$div()
-                      ),
+#             tabPanel("Home",
+#                      tags$div(
+#                        column(width = 11, tags$p('Untuk melakukan update data, klik "Update"')),
+#                        column(width = 1, #actionButton("update", "UPDATE")
+#                        )),
+#                      tags$div()
+#                      ),
              tabPanel("Anggaran",
                       tags$div(
                         column(width = 11,tags$p('Untuk melakukan update data, klik "Update"')),
