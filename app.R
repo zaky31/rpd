@@ -155,7 +155,7 @@ server <- function(input, output){
       mutate(perc_rpd = 100*round(rpd/sum(rpd.bulan),digits = 4), .after = 'rpd') %>%
       mutate(perc_real = 100*round(realisasi/sum(rpd.bulan),digits = 4)) %>%
       select(month,rpd,perc_rpd,realisasi,perc_real) %>%
-      mutate(gap = 100*(rpd - realisasi)/rpd)
+      mutate(gap = 100*round((rpd - realisasi)/rpd,digits=4))
   },ignoreNULL = FALSE)
 
     output$table_1 <- renderReactable({
