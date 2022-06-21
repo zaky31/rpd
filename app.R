@@ -1,4 +1,5 @@
 library(shiny)
+library(shinydashboard)
 library(htmltools)
 library(reactable)
 library(plotly)
@@ -10,22 +11,25 @@ ui <- fluidPage(
   tags$head(
     tags$meta(name="viewport", content="width=device-width, initial-scale=1.0")),
   navbarPage(title = "Monev Anggaran",
-#             tabPanel("Home",
-#                      tags$div(
-#                        column(width = 11, tags$p('Untuk melakukan update data, klik "Update"')),
-#                        column(width = 1, #actionButton("update", "UPDATE")
-#                        )),
-#                      tags$div()
-#                      ),
+             tabPanel("Home",
+                      tags$div(
+                        column(width = 11, tags$p('Untuk melakukan update data, klik "Update"')),
+                        column(width = 1, actionButton("update_2", "UPDATE"))
+                      ),
+                      tags$div(class = "update_box",
+                        uiOutput('pagu_box1'),
+                        uiOutput('realisasi_box1'),
+                        uiOutput('progress_box1')
+                      )),
              tabPanel("Anggaran",
                       tags$div(
                         column(width = 11,tags$p('Untuk melakukan update data, klik "Update"')),
                         column(width = 1,actionButton("update", "UPDATE")
                         )),
                       tags$div(
-                        column(width = 7, class = "col-lg-7 col-md-6 col-sm-12",
+                        column(width = 7, class = "col-lg-7 col-md-12 col-sm-12",
                                reactableOutput("table_4")),
-                        column(width = 5, class = "col-lg-5 col-md-6 col-sm-12 vertical-center",
+                        column(width = 5, class = "col-lg-5 col-md-12 col-sm-12 vertical-center",
                                selectInput(inputId = "modal_1","Realisasi Berdasarkan Jenis Belanja dan Modal",
                                            choices = c("01-January","02-February","03-March","04-April","05-May","06-June","07-July","08-August","09-September","10-October","11-November","12-December"),
                                            selected = format(Sys.Date(), format = "%m-%B"),
@@ -45,9 +49,9 @@ ui <- fluidPage(
                           )
                         ),
                         tags$div(
-                          column(width = 6, class = "col-lg-6 col-sm-12",
+                          column(width = 6, class = "col-lg-6 col-md-12 col-sm-12",
                                  plotlyOutput("graph")),
-                          column(width = 6, class = "col-lg-6 col-sm-12",
+                          column(width = 6, class = "col-lg-6 col-md-12 col-sm-12",
                                  tags$h3("Rencana Penarikan Dana tiap Bulan"),
                                  reactableOutput("table_1"))
                         ),
@@ -63,6 +67,29 @@ ui <- fluidPage(
 )
 
 server <- function(input, output){
+  #===== Info Box untuk Pagu Anggaran ======
+  pagu_box <- eventReactive(input$update_2,{
+    sum(pagu() %>% filter(!is.na(jml)) %>% select(jml))
+  },ignoreNULL = FALSE)
+  
+  output$pagu_box1 <- renderUI(
+    infoBox("Pagu 2022", paste0(scales::dollar(pagu_box(), prefix = "", big.mark = ".", decimal.mark = ",")),  icon = icon("ok", lib = "glyphicon"), color = "red")
+  )
+  
+  #===== Info Box untuk Realisasi anggaran ======
+  realisasi_box <- eventReactive(input$update_2,{
+    sum(realisasi() %>% filter(!is.na(bulan) & !is.na(jml)) %>% select(jml))
+  },ignoreNULL = FALSE)
+  
+  output$realisasi_box1 <- renderUI(
+    infoBox("Realisasi OM SPAN",  paste0(scales::dollar(realisasi_box(), prefix = "", big.mark = ".", decimal.mark = ",")),  icon = icon("ok", lib = "glyphicon"), color = "yellow")
+  )
+  
+  #===== Info Box untuk Progress ======
+  output$progress_box1 <- renderUI(
+    infoBox("Progress",   paste0(scales::dollar(100*round(realisasi_box()/pagu_box(),digits = 4), prefix = "", big.mark = ".", decimal.mark = ",")," %"),  icon = icon("ok", lib = "glyphicon"), color = "green")
+  )
+  
   #===== Tabel Realisasi untuk Keseluruhan =========
   realisasi <- eventReactive(input$update,{
     gs4_deauth()
@@ -83,7 +110,7 @@ server <- function(input, output){
               columns = list(
                 pagu = colDef(aggregate = "sum", format = colFormat(separators = TRUE, digits = 0)),
                 realisasi = colDef(aggregate = "sum", format = colFormat(separators = TRUE, digits = 0))
-              ),filterable = TRUE, highlight = TRUE, height = 900)
+              ),filterable = TRUE, highlight = TRUE, height = 800)
   })
   #===== Tabel Realisasi untuk per Jenis Belanja =========
   output$table_2 <- renderReactable({
@@ -113,7 +140,7 @@ server <- function(input, output){
     as.character(unique(realisasi()$no_spp))
   },ignoreNULL = FALSE)
   
-  output$spp_1 = renderUI({
+  output$spp_1 <- renderUI({
     selectInput('spp_1', '', spp(), multiple = TRUE)
   })
   output$table_3 <- renderReactable({
@@ -155,7 +182,7 @@ server <- function(input, output){
       mutate(perc_rpd = 100*round(rpd/sum(rpd.bulan),digits = 4), .after = 'rpd') %>%
       mutate(perc_real = 100*round(realisasi/sum(rpd.bulan),digits = 4)) %>%
       select(month,rpd,perc_rpd,realisasi,perc_real) %>%
-      mutate(gap = 100*round((rpd - realisasi)/rpd,digits=4))
+      mutate(gap = 100*(rpd - realisasi)/rpd)
   },ignoreNULL = FALSE)
 
     output$table_1 <- renderReactable({
