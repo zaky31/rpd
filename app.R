@@ -110,7 +110,7 @@ server <- function(input, output){
               columns = list(
                 pagu = colDef(aggregate = "sum", format = colFormat(separators = TRUE, digits = 0)),
                 realisasi = colDef(aggregate = "sum", format = colFormat(separators = TRUE, digits = 0))
-              ),filterable = TRUE, highlight = TRUE, height = 800)
+              ),filterable = TRUE, highlight = TRUE)
   })
   #===== Tabel Realisasi untuk per Jenis Belanja =========
   output$table_2 <- renderReactable({
