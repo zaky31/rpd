@@ -2,8 +2,8 @@ require(tidyverse)
 require(googlesheets4)
 
 #======= Pagu Anggaran ========
-#gs4_deauth()
-#pagu <- read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "Rincian Kertas Kerja")
+gs4_deauth()
+pagu <- read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "Rincian Kertas Kerja")
 #pagu <- pagu[which(pagu$jml != 0),]
 
 #pagu$rincian_output <- factor(pagu$rincian_output,levels = c("4130.ABG.001 - Kajian Keamanan, Mutu, Gizi dan Manfaat Pangan Olahan yang Diselesaikan","4130.AFA.001 - Standar Pangan Olahan yang Disusun","4130.CAN.001 - Perangkat Pengolah Data dan Komunikasi","4130.CAB.001 - Sarana Pengawasan Pangan Olahan"))
@@ -45,8 +45,8 @@ pagu$jenis_belanja <- factor(pagu$jenis_belanja, levels = c("Belanja Barang","Be
 
 
 #======= Realisasi Anggaran =========
-#gs4_deauth()
-#realisasi <- read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "INPUT UP TUP")
+gs4_deauth()
+realisasi <- read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "INPUT UP TUP")
 #realisasi <- realisasi %>% drop_na(jml)
 
 #realisasi %>% print(n = Inf)
@@ -201,3 +201,9 @@ realisasi$jenis_belanja <- factor(realisasi$jenis_belanja, levels = c("Belanja B
 #  xlim(c("01-January","02-February","03-March","04-April","05-May","06-June","07-July","08-August","09-September","10-October","11-November","12-December")) +
 #  xlab("Bulan") + ylab ("Anggaran") +
 #  theme_bw()
+
+#======= Total Realisasi Box =========
+#spp_box <- sum(realisasi %>% filter(!is.na(jml)) %>% select(jml))
+#spp_box
+#realisasi_box <- sum(realisasi %>% filter(!is.na(bulan) & !is.na(jml)) %>% select(jml))
+#realisasi_box
