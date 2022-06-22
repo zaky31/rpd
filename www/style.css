@@ -9,7 +9,7 @@
                     width: 100%;
                     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
                     border-radius: 2px;
-                    margin-bottom: 15px;
+                    margin-bottom: 5rem;
                     }
                     .info-box small {
                     font-size: 14px;
@@ -475,4 +475,8 @@
 
 col-sm-1, .col-sm-11 {
   margin-bottom: 3rem;
+}
+
+#pagu_box1 {
+  margin-top: 5rem;
 }
