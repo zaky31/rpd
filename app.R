@@ -12,10 +12,10 @@ ui <- fluidPage(
     tags$meta(name="viewport", content="width=device-width, initial-scale=1.0")),
   navbarPage(title = "Monev Anggaran",
              tabPanel("Home",
-                      tags$div(
-                        column(width = 11, tags$p('Untuk melakukan update data, klik "Update"')),
-                        column(width = 1, actionButton("update_2", "UPDATE"))
-                      ),
+                     # tags$div(
+                     #   column(width = 11, tags$p('Untuk melakukan update data, klik "Update"')),
+                     #   column(width = 1, actionButton("update_2", "UPDATE"))
+                     # ),
                       tags$div(class = "update_box",
                         uiOutput('pagu_box1'),
                         uiOutput('realisasi_box1'),
@@ -183,7 +183,7 @@ server <- function(input, output){
       mutate(perc_rpd = 100*round(rpd/sum(rpd.bulan),digits = 4), .after = 'rpd') %>%
       mutate(perc_real = 100*round(realisasi/sum(rpd.bulan),digits = 4)) %>%
       select(month,rpd,perc_rpd,realisasi,perc_real) %>%
-      mutate(gap = 100*(rpd - realisasi)/rpd)
+       mutate(gap = 100*round((rpd - realisasi)/rpd,digits = 4))
   },ignoreNULL = FALSE)
 
     output$table_1 <- renderReactable({
