@@ -2,8 +2,8 @@ require(tidyverse)
 require(googlesheets4)
 
 #======= Pagu Anggaran ========
-gs4_deauth()
-pagu <- read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "Rincian Kertas Kerja")
+#gs4_deauth()
+#pagu <- read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "Rincian Kertas Kerja")
 #pagu <- pagu[which(pagu$jml != 0),]
 
 #pagu$rincian_output <- factor(pagu$rincian_output,levels = c("4130.ABG.001 - Kajian Keamanan, Mutu, Gizi dan Manfaat Pangan Olahan yang Diselesaikan","4130.AFA.001 - Standar Pangan Olahan yang Disusun","4130.CAN.001 - Perangkat Pengolah Data dan Komunikasi","4130.CAB.001 - Sarana Pengawasan Pangan Olahan"))
@@ -45,8 +45,8 @@ pagu$jenis_belanja <- factor(pagu$jenis_belanja, levels = c("Belanja Barang","Be
 
 
 #======= Realisasi Anggaran =========
-gs4_deauth()
-realisasi <- read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "INPUT UP TUP")
+#gs4_deauth()
+#realisasi <- read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "INPUT UP TUP")
 #realisasi <- realisasi %>% drop_na(jml)
 
 #realisasi %>% print(n = Inf)
@@ -207,3 +207,35 @@ realisasi$jenis_belanja <- factor(realisasi$jenis_belanja, levels = c("Belanja B
 #spp_box
 #realisasi_box <- sum(realisasi %>% filter(!is.na(bulan) & !is.na(jml)) %>% select(jml))
 #realisasi_box
+
+#==== Tabel Realisasi =====
+#realisasi %>% drop_na(rincian_output,jml) %>% filter(is.na(kontraktual)) %>% group_by(rincian_output) %>% 
+#  summarise(realisasi = sum(jml),.groups = 'drop') #realisasi per ro
+
+#pagu %>% drop_na(rincian_output) %>% group_by(rincian_output) %>% 
+#  summarise(pagu = sum(jml),.groups = 'drop') # pagu per ro
+
+#realisasi %>% drop_na(jml) %>% filter(kontraktual == "Ya",is.na(bulan)) %>%  
+#  group_by(rincian_output) %>% summarise(realisasi = sum(jml)) # otsk per ro
+
+#realisasi %>% drop_na(rincian_output,jml) %>% filter(is.na(bulan),is.na(kontraktual)) %>% 
+#  group_by(rincian_output) %>% summarise(spp = sum(jml)) #spp per ro
+
+
+#left_join(
+#  #left join untuk outstanding
+#  left_join(
+#    #left join untuk spp
+#    left_join(#left join untuk pagu dan realisasi
+#      pagu %>% drop_na(rincian_output) %>% group_by(rincian_output) %>% summarise(pagu = sum(jml),.groups = 'drop'),
+#      realisasi %>% drop_na(rincian_output,jml) %>% filter(!is.na(bulan)) %>% group_by(rincian_output) %>% summarise(realisasi = sum(jml),.groups = 'drop'),
+#      by = c('rincian_output')),
+#    realisasi %>% drop_na(rincian_output,jml) %>% filter(is.na(bulan),is.na(kontraktual)) %>% group_by(rincian_output) %>% summarise(spp = sum(jml)),
+#    by = c('rincian_output')),
+#  realisasi %>% drop_na(jml) %>% filter(kontraktual == "Ya",is.na(bulan)) %>%  group_by(rincian_output) %>% summarise(outstanding= sum(jml)), # otsk per ro
+#by = c('rincian_output')  
+#) %>%
+#  mutate(outstanding = replace_na(outstanding,0),spp = replace_na(spp,0)) %>%
+#  mutate(total = realisasi + spp + outstanding) %>%
+#  mutate(perc_1 = 100*round(realisasi/pagu,digits = 4), .after = realisasi) %>%
+#  mutate(perc_2 = 100*round(total/pagu,digits = 4), .after = total)
