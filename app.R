@@ -12,14 +12,19 @@ ui <- fluidPage(
     tags$meta(name="viewport", content="width=device-width, initial-scale=1.0")),
   navbarPage(title = "Monev Anggaran",
              tabPanel("Home",
-                     # tags$div(
-                     #   column(width = 11, tags$p('Untuk melakukan update data, klik "Update"')),
-                     #   column(width = 1, actionButton("update_2", "UPDATE"))
-                     # ),
-                      tags$div(class = "update_box",
-                        uiOutput('pagu_box1'),
-                        uiOutput('realisasi_box1'),
-                        uiOutput('progress_box1')
+                      #tags$div(
+                      #  column(width = 11, tags$p('Untuk melakukan update data, klik "Update"')),
+                      #  column(width = 1, actionButton("update_2", "UPDATE"))
+                      #),
+                      tags$div(
+                        column(width = 12,
+                               uiOutput('pagu_box1'),
+                               uiOutput('realisasi_box1'),
+                               uiOutput('progress_box1')
+                               )),
+                      tags$br(),
+                      tags$div(
+                        column(width = 12, reactableOutput("table_5"))
                       )),
              tabPanel("Anggaran",
                       tags$div(
@@ -101,7 +106,46 @@ server <- function(input, output){
     infoBox("Progress",   paste0(scales::dollar(100*round(realisasi_box()/pagu_box(),digits = 4), prefix = "", big.mark = ".", decimal.mark = ",")," %"),  icon = icon("ok", lib = "glyphicon"), color = "green")
   )
   
-  #===== Tabel Realisasi untuk Keseluruhan =========    
+  #===== Tabel Realisasi untuk per RO =========
+  ro_update <- eventReactive(input$update2,{
+    left_join(
+      #left join untuk outstanding
+      left_join(
+        #left join untuk spp
+        left_join(#left join untuk pagu dan realisasi
+          pagu() %>% drop_na(rincian_output) %>% group_by(rincian_output) %>% summarise(pagu = sum(jml),.groups = 'drop'),
+          realisasi() %>% drop_na(rincian_output,jml) %>% filter(!is.na(bulan)) %>% group_by(rincian_output) %>% summarise(realisasi = sum(jml),.groups = 'drop'),
+          by = c('rincian_output')),
+        realisasi() %>% drop_na(rincian_output,jml) %>% filter(is.na(bulan),is.na(kontraktual)) %>% group_by(rincian_output) %>% summarise(spp = sum(jml),.groups = 'drop'),
+        by = c('rincian_output')),
+      realisasi() %>% drop_na(jml) %>% filter(kontraktual == "Ya",is.na(bulan)) %>%  group_by(rincian_output) %>% summarise(outstanding= sum(jml),.groups = 'drop'), # otsk per ro
+      by = c('rincian_output')  
+    ) %>%
+      mutate(outstanding = replace_na(outstanding,0),spp = replace_na(spp,0)) %>%
+      mutate(total = realisasi + spp + outstanding) %>%
+      mutate(perc_1 = 100*round(realisasi/pagu,digits = 4), .after = realisasi) %>%
+      mutate(perc_2 = 100*round(total/pagu,digits = 4), .after = total)
+  },ignoreNULL = FALSE)
+  
+  output$table_5 <- renderReactable({
+    reactable(ro_update(),
+              columns = list(
+                pagu = colDef(format = colFormat(separators = TRUE, digits = 0),
+                              footer = function(values) scales::dollar(sum(values), prefix = "", big.mark = ".", decimal.mark = ",")),
+                realisasi = colDef(format = colFormat(separators = TRUE, digits = 0),
+                                   footer = function(values) scales::dollar(sum(values), prefix = "", big.mark = ".", decimal.mark = ",")),
+                perc_1 = colDef(format = colFormat(separators = TRUE, digits = 2)),
+                spp = colDef(format = colFormat(separators = TRUE, digits = 0),
+                             footer = function(values) scales::dollar(sum(values), prefix = "", big.mark = ".", decimal.mark = ",")),
+                outstanding = colDef(format = colFormat(separators = TRUE, digits = 0),
+                                     footer = function(values) scales::dollar(sum(values), prefix = "", big.mark = ".", decimal.mark = ",")),
+                total = colDef(format = colFormat(separators = TRUE, digits = 0),
+                               footer = function(values) scales::dollar(sum(values), prefix = "", big.mark = ".", decimal.mark = ",")),
+                perc_2 = colDef(format = colFormat(separators = TRUE, digits = 2))
+              ))
+  })
+  
+  #===== Tabel Realisasi untuk Keseluruhan =========
   output$table_4 <- renderReactable({
     reactable(#pok_realisasi,
       left_join(pagu() %>% group_by(rincian_output,kegiatan,kode_akun1,sub_detail,detail) %>% summarise(pagu = sum(jml), .groups = 'drop') %>% filter(pagu > 0),
@@ -183,7 +227,7 @@ server <- function(input, output){
       mutate(perc_rpd = 100*round(rpd/sum(rpd.bulan),digits = 4), .after = 'rpd') %>%
       mutate(perc_real = 100*round(realisasi/sum(rpd.bulan),digits = 4)) %>%
       select(month,rpd,perc_rpd,realisasi,perc_real) %>%
-       mutate(gap = 100*round((rpd - realisasi)/rpd,digits = 4))
+      mutate(gap = 100*round((rpd - realisasi)/rpd,digits = 4))
   },ignoreNULL = FALSE)
 
     output$table_1 <- renderReactable({
