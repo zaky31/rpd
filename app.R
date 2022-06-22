@@ -67,6 +67,17 @@ ui <- fluidPage(
 )
 
 server <- function(input, output){
+  #====== Stream Data Pagu dan Realisasi =========
+  realisasi <- eventReactive(input$update,{
+    gs4_deauth()
+    read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "INPUT UP TUP")
+  }, ignoreNULL = FALSE)
+  
+  pagu <- eventReactive(input$update,{
+    gs4_deauth()
+    read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "Rincian Kertas Kerja")
+  }, ignoreNULL = FALSE)
+  
   #===== Info Box untuk Pagu Anggaran ======
   pagu_box <- eventReactive(input$update_2,{
     sum(pagu() %>% filter(!is.na(jml)) %>% select(jml))
@@ -90,17 +101,7 @@ server <- function(input, output){
     infoBox("Progress",   paste0(scales::dollar(100*round(realisasi_box()/pagu_box(),digits = 4), prefix = "", big.mark = ".", decimal.mark = ",")," %"),  icon = icon("ok", lib = "glyphicon"), color = "green")
   )
   
-  #===== Tabel Realisasi untuk Keseluruhan =========
-  realisasi <- eventReactive(input$update,{
-    gs4_deauth()
-    read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "INPUT UP TUP")
-  }, ignoreNULL = FALSE)
-  
-  pagu <- eventReactive(input$update,{
-    gs4_deauth()
-    read_sheet("https://docs.google.com/spreadsheets/d/10PeMfrDTBZ2F_kSB98dAHgAly3vfDLTGCfSxGhCCPIw/edit?usp=sharing", sheet = "Rincian Kertas Kerja")
-  }, ignoreNULL = FALSE)
-    
+  #===== Tabel Realisasi untuk Keseluruhan =========    
   output$table_4 <- renderReactable({
     reactable(#pok_realisasi,
       left_join(pagu() %>% group_by(rincian_output,kegiatan,kode_akun1,sub_detail,detail) %>% summarise(pagu = sum(jml), .groups = 'drop') %>% filter(pagu > 0),
