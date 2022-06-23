@@ -12,10 +12,10 @@ ui <- fluidPage(
     tags$meta(name="viewport", content="width=device-width, initial-scale=1.0")),
   navbarPage(title = "Monev Anggaran",
              tabPanel("Home",
-                      tags$div(
-                        column(width = 11, tags$p('Untuk melakukan update data, klik "Update"')),
-                        column(width = 1, actionButton("update_2", "UPDATE"))
-                      ),
+                      #tags$div(
+                      #  column(width = 11, tags$p('Untuk melakukan update data, klik "Update"')),
+                      #  column(width = 1, actionButton("update_2", "UPDATE"))
+                      #),
                       tags$div(
                         column(width = 12,
                                uiOutput('pagu_box1'),
